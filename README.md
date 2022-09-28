@@ -1,6 +1,10 @@
 # LIP - Lua INI Parser
 *Lua INI Parser* is a tiny Lua library allowing to handle *.ini* files.
 
+[Original by Dynodzzo.](https://github.com/Dynodzzo/Lua_INI_Parser)
+
+This version allows the user to sort the ini output before writing it.
+
 # Usage
 Add [LIP.lua](https://github.com/Dynodzzo/Lua_INI_Parser/blob/master/LIP.lua) file into your project folder.<br />
 Call it using __require__ function.<br />
