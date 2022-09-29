@@ -92,7 +92,7 @@ function LIP.save(fileName, data, sort)
 			for _,key in ipairs(unsorted_values) do 
 				local value = param[key]
 				if(value ~= nil)then
-					contents = contents .. ('%s=%s\n'):format(key, tostring(value)) .. '\n';
+					contents = contents .. ('%s=%s\n'):format(key, tostring(value));
 				end
 			end
 			contents = contents .. '\n';
